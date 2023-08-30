@@ -1,4 +1,6 @@
 # frutal
 Estudi estadístic del joc de taula Frutal
 
-Programa smb python i script bash
+Competeixen un corb amb moviment segons daus i un o més jugadors
+
+Programa fet amb python i script amb bash per veure estadístiques
