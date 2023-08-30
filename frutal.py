@@ -48,17 +48,17 @@ while (arbre_es_buit==False) and (Corb>0):
  if tirada==5:
    if arbre[0]>0:
       arbre[0]=arbre[0]-1
-   if arbre[1]>0:
+   elif arbre[1]>0:
       arbre[1]=arbre[1]-1
-   if arbre[2]>0:
+   elif arbre[2]>0:
       arbre[2]=arbre[2]-1
-   if arbre[3]>0:
+   elif arbre[3]>0:
       arbre[3]=arbre[3]-1
 
  if tirada==6:
      Corb=Corb-1
 
- if NomesResultat=="0": print("Arbres: ")
+ if NomesResultat=="0": print("Arbres (Groc/Verd/Blau/Vermell): ")
  if NomesResultat=="0": print(arbre)
  if NomesResultat=="0": print "Corb: " , Corb
 
